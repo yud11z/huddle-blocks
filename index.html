@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c192eb268d.js" crossorigin="anonymous"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+
+  <link rel="stylesheet" href="/dist/output.css">
+</head>
+
+<body>
+  <header class="bg-secondary pb-10">
+    <nav>
+      <div class="flex justify-between pt-7 mx-5 desktop:mx-12">
+        <img src="/images/logo.svg" alt="logo" class="desktop:w-40 mobile:w-28">
+        <button class="font-opensans font-bold text-xs bg-white shadow-sm shadow-accent2 rounded-full px-5 py-1 desktop:px-11 desktop:py-3"><a href="" class=""> Try It Free</a></button>
+      </div>
+    </nav>
+    <div role="hero" class="bg-[url('/images/bg-hero-mobile.svg')]">
+      <div class="mobile:mt-20 flex mobile:flex-col">
+        <div class="mobile:text-center desktop:self-center">
+          <h1 class="font-poppins mobile:text-2xl mobile:px-10 desktop:pl-12 desktop:max-w-md desktop:text-4xl mobile:leading-9 desktop:leading-normal">Build The Community Your Fans Will Love</h1>
+          <p class="font-opensans pt-4 mobile:px-9 desktop:px-12 desktop:text-base">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+          <button class="font-poppins text-xs text-white bg-primary shadow-sm shadow-primary px-14 py-3 rounded-full mt-8 desktop:ml-12"><a href="">Get Started For Free</a></button>
+        </div>
+        <div class="mt-14 mx-auto">
+          <img src="./images/illustration-mockups.svg" alt="" class="mobile:px-10 desktop:max-w-3xl desktop:pr-16">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="relative pb-48">
+    <div class="desktop:flex desktop:flex-row-reverse mobile:mx-5 mobile:mt-14 mb-10 desktop:mx-16 desktop:mt-28 desktop:py-7 border rounded-xl shadow-2xl">
+      <div class="p-10">
+        <img src="./images/illustration-grow-together.svg" alt="" class="desktop:pr-16">
+      </div>
+      <div class="self-center mobile:text-center desktop:px-28">
+        <h2 class="font-poppins mobile:text-xl desktop:text-2xl text-accent1 py-4">Grow Together</h2>
+        <p class="font-opensans mobile:text-sm text-accent2 mobile:px-7 mobile:pb-8 desktop:leading-relaxed">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.
+        </p>
+      </div>
+    </div>
+    <div class="desktop:flex desktop:flex-row mobile:mx-5 mobile:mt-14 mb-10 desktop:mx-16 desktop:mt-28 desktop:py-7 border rounded-xl shadow-2xl">
+      <div class="p-10">
+        <img src="./images/illustration-flowing-conversation.svg" alt="" class="desktop:pl-16">
+      </div>
+      <div class="self-center mobile:text-center desktop:px-28 ">
+        <h2 class="font-poppins mobile:text-xl desktop:text-2xl text-accent1 py-4">Flowing Conversations</h2>
+        <p class="font-opensans mobile:text-sm text-accent2 mobile:px-7 mobile:pb-8 desktop:leading-relaxed">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+      </div>
+    </div>
+    <div class="desktop:flex desktop:flex-row-reverse mobile:mx-5 mobile:mt-14 mb-10 desktop:mx-16 desktop:mt-28 desktop:py-7 border rounded-xl shadow-2xl">
+      <div class="p-10">
+        <img src="./images/illustration-your-users.svg" alt="" class="desktop:pr-16">
+      </div>
+      <div class="self-center mobile:text-center desktop:px-28">
+        <h2 class="font-poppins mobile:text-xl desktop:text-2xl text-accent1 py-4">Your Users</h2>
+        <p class="font-opensans mobile:text-sm text-accent2 mobile:px-7 mobile:pb-8 desktop:leading-relaxed">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+    </div>
+    <div class="absolute border bg-white rounded-3xl desktop:px-24 mobile:px-6 mobile:py-10 desktop:py-12 mobile:my-9 -bottom-24 mobile:left-2.5 desktop:left-1/2 desktop:-translate-x-1/2">
+      <h2 class="font-poppins mobile:text-lg desktop:text-2xl text-accent1 mobile:pb-5 desktop:pb-7">Ready To Build Your Community?</h2>
+      <button class="flex mx-auto bg-primary shadow-lg rounded-full font-poppins mobile:text-xs desktop:text-sm text-secondary mobile:py-3 mobile:px-12 desktop:py-5 desktop:px-20">Get Started For Free</button>
+    </div>
+  </main>
+  <footer class="bg-accent1 pt-32 desktop:px-14">
+    <div>
+      <img src="./images/logo1.svg" alt="" class="w-44">
+    </div>
+    <div class="desktop:flex desktop:justify-between">
+      <div class="text-secondary desktop:text-sm mt-4">
+        <span class="flex pl-3 mobile:pr-6 desktop:w-96"><img src="./images/icon-location.svg" alt="" class="pt-1 pr-6 self-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</span>
+        <span class="flex pl-3 pt-5"><img src="./images/icon-phone.svg" alt="" class="pr-5">+1-543-123-4567</span>
+        <span class="flex pl-3 pt-5"><img src="./images/icon-email.svg" alt="" class="pr-5">example@huddle.com</span>
+      </div>
+      <div class="font-opensans text-secondary text-lg desktop:text-sm mobile:mt-14 desktop:mt-4 pl-3">
+        <ul>
+          <li>About Us</li>
+          <li class="pt-4">What We Do</li>
+          <li class="pt-4">FAQ</li>
+        </ul>
+      </div>
+      <div class="font-opensans text-secondary text-lg desktop:text-sm mt-4 pl-3">
+        <ul>
+          <li>Career</li>
+          <li class="pt-4">Blog</li>
+          <li class="pt-4">Contact Us</li>
+        </ul>
+      </div>
+      <div class="flex text-secondary mobile:py-8 desktop:p-10 mobile:justify-evenly">
+        <a href="" aria-hidden="true"><i
+            class="fab fa-facebook-f border border-lightgray p-3 rounded-full desktop:mr-5"></i></a>
+        <a href="" aria-hidden="true"><i
+            class="fab fa-twitter border border-lightgray p-3 rounded-full desktop:mr-5"></i></a>
+        <a href="" aria-hidden="true"><i class="fab fa-instagram border border-lightgray p-3 rounded-full"></i></a>
+      </div>
+    </div>
+    <div class="font-opensans text-secondary text-xs text-center pb-12 desktop:text-end">
+      <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+
+</html>
